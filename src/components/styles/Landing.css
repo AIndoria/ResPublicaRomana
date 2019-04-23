@@ -1,0 +1,32 @@
+.Landing {
+  display: grid;
+  background: rgb(28, 29, 29);
+  height: 80vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "Landing__Main Landing__Main Landing__Side_1" "Landing__Main Landing__Main Landing__Side_2" "Landing__News Landing__Misc Landing__About";
+}
+
+.Landing__Main {
+  grid-area: Landing__Main;
+}
+
+.Landing__Side_1 {
+  grid-area: Landing__Side_1;
+}
+
+.Landing__Side_2 {
+  grid-area: Landing__Side_2;
+}
+
+.Landing__News {
+  grid-area: Landing__News;
+}
+
+.Landing__Misc {
+  grid-area: Landing__Misc;
+}
+
+.Landing__About {
+  grid-area: Landing__About;
+}

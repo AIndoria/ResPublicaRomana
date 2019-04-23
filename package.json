@@ -21,5 +21,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "postcss-loader": "^3.0.0",
+    "react-svg": "^9.0.1",
+    "svg-inline-loader": "^0.8.0"
+  }
 }
