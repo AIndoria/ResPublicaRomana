@@ -9,6 +9,8 @@
 
 .Landing__Main {
   grid-area: Landing__Main;
+  display: flex;
+  background: white;
 }
 
 .Landing__Side_1 {
