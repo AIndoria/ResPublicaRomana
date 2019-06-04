@@ -1,34 +1,34 @@
 .Landing {
   display: grid;
-  background: rgb(28, 29, 29);
-  height: 80vh;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "Landing__Main Landing__Main Landing__Side_1" "Landing__Main Landing__Main Landing__Side_2" "Landing__News Landing__Misc Landing__About";
+  background: rgb(217, 219, 219);
+  height: 140vh;
+  grid-template-columns: [main-start] 0.5fr [content-start] 5fr [content-end] 0.5fr [sidebar-start] 3fr [sidebar-end] 0.5fr [main-end];
+  grid-template-rows: [main-start] 0fr [splash-start] 2fr [content-start] 0.5fr [splash-end] 2fr [content-end] 1fr [main-end];
 }
 
-.Landing__Main {
-  grid-area: Landing__Main;
-  display: flex;
-  background: white;
-}
-
-.Landing__Side_1 {
-  grid-area: Landing__Side_1;
-}
-
-.Landing__Side_2 {
-  grid-area: Landing__Side_2;
+.Splash {
+  background: rgb(44, 0, 0);
+  grid-row-start: splash-start;
+  grid-row-end: splash-end;
+  grid-column-start: main-start;
+  grid-column-end: main-end;
+  z-index: 1;
 }
 
 .Landing__News {
-  grid-area: Landing__News;
+  background: rgb(68, 68, 68);
+  grid-row-start: content-start;
+  grid-row-end: content-end;
+  grid-column-start: content-start;
+  grid-column-end: content-end;
+  z-index: 2;
 }
 
-.Landing__Misc {
-  grid-area: Landing__Misc;
-}
-
-.Landing__About {
-  grid-area: Landing__About;
+.Landing__Sidebar {
+  background: rgb(60, 88, 58);
+  grid-row-start: content-start;
+  grid-row-end: content-end;
+  grid-column-start: sidebar-start;
+  grid-column-end: sidebar-end;
+  z-index: 2;
 }
