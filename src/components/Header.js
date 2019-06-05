@@ -25,10 +25,10 @@ class Header extends Component {
           </div>
           <div className="nav__main-nav">
             <ul>
-              <li>ROMANS &#709; </li>
-              <li>BARBARIANS &#709;</li>
-              <li>OFFICES &#709;</li>
-              <li>PROVINCES &#709;</li>
+              <li>ROMANS</li>
+              <li>BARBARIANS</li>
+              <li>OFFICES</li>
+              <li>PROVINCES</li>
               <li>EVENTS</li>
               <li>ABOUT</li>
             </ul>

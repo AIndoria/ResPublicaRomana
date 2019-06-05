@@ -1,6 +1,6 @@
 .Landing {
   display: grid;
-  background: rgb(217, 219, 219);
+  background: #f5f1ee;
   height: 140vh;
   grid-template-columns: [main-start] 0.5fr [content-start] 5fr [content-end] 0.5fr [sidebar-start] 3fr [sidebar-end] 0.5fr [main-end];
   grid-template-rows: [main-start] 0fr [splash-start] 2fr [content-start] 0.5fr [splash-end] 2fr [content-end] 1fr [main-end];
@@ -13,22 +13,104 @@
   grid-column-start: main-start;
   grid-column-end: main-end;
   z-index: 1;
+  max-width: 100%;
 }
 
 .Landing__News {
-  background: rgb(68, 68, 68);
+  background: white;
   grid-row-start: content-start;
   grid-row-end: content-end;
   grid-column-start: content-start;
   grid-column-end: content-end;
   z-index: 2;
+  display: flex;
+  flex-direction: column;
 }
 
 .Landing__Sidebar {
-  background: rgb(60, 88, 58);
+  background: rgb(85, 0, 0);
   grid-row-start: content-start;
   grid-row-end: content-end;
   grid-column-start: sidebar-start;
   grid-column-end: sidebar-end;
   z-index: 2;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.card {
+  border-top: 1px solid rgb(85, 0, 0);
+  border-radius: 0px;
+  min-height: 4vh;
+  background: white !important;
+}
+
+.card-body {
+  font-family: "Martel", serif;
+}
+
+.card-header {
+  background: white;
+}
+
+@media (max-width: 998px) {
+  .carousel-item img {
+    min-height: 45vh;
+    object-fit: cover;
+  }
+}
+
+.carousel-item img {
+  max-height: 63.5vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  top: 1rem;
+  bottom: auto;
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-shadow: 2px 1px 2px black;
+  font-family: "Josefin Sans", sans-serif;
+}
+.carousel-caption h3 {
+  font-size: 2.5rem;
+  text-shadow: 2px 1px 2px black;
+}
+
+.Landing__News-breaking {
+  height: 100%;
+  display: flex;
+  flex: 0 0 12.7vh;
+  background: rgb(85, 0, 0);
+  color: white;
+  font-family: "Martel", serif;
+}
+
+.Landing__News-breaking-content {
+  margin: auto;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.Landing__News-picture {
+  flex: 1;
+  margin: auto;
+  border-bottom: 1px solid rgb(85, 0, 0);
+  box-shadow: 0px 1px 1px rgb(85, 0, 0);
+}
+
+.Landing__News-content {
+  flex: 1;
+  padding: 0.5rem 2rem 2rem 2rem;
+}
+
+.Landing__News-content__title {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.Landing__News-content__desc {
+  font-family: "Martel", serif;
 }

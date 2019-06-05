@@ -87,3 +87,7 @@
   margin-top: 4vh;
   justify-content: space-around;
 }
+.nav__main-nav li:hover {
+  box-shadow: 0 4px 0 0 rgb(85, 0, 0);
+  transition: 0.2s;
+}
