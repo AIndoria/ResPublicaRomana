@@ -7,7 +7,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        App.js displays here
         <Header className="Header" />
         <Landing className="Landing" />
       </div>

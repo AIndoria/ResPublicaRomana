@@ -4,6 +4,7 @@ import Militari from "./images/militari.jpg";
 import Senate from "./images/senate.jpg";
 import Capitalina from "./images/capitalina.jpg";
 import Cato from "./images/cato.jpg";
+import Art from "./images/art.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
 
@@ -68,7 +69,7 @@ class Landing extends Component {
         </div>
         <div className="Landing__Sidebar">
           <Card bg="light">
-            <Card.Header className="text-muted">
+            <Card.Header className="text-muted top-card">
               December 5, 691 AUC | dies Saturni Non. DCXCI AUC
             </Card.Header>
             <Card.Body>
@@ -106,6 +107,18 @@ class Landing extends Component {
               </Card.Text>
             </Card.Body>
           </Card>
+        </div>
+        <div className="Landing__EndBanner">
+          <div className="Landing__EndBanner-text">Banner Info Goes Here</div>
+        </div>
+        <div className="Landing__Agency">
+          <div className="Landing__Agency-text">
+            <ul>
+              <li>Senate of the Roman Republic</li>
+              <li>Contact</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
         </div>
       </div>
     );

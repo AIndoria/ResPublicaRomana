@@ -44,7 +44,13 @@
   background: white !important;
 }
 
+.card-body:hover {
+  background: rgb(228, 228, 228);
+  transition: 0.3s;
+}
+
 .card-body {
+  transition: 0.3s;
   font-family: "Martel", serif;
 }
 
@@ -113,4 +119,34 @@
 
 .Landing__News-content__desc {
   font-family: "Martel", serif;
+}
+
+.Landing__Agency {
+  color: white;
+  background: rgb(85, 0, 0);
+  margin-top: 6rem;
+  grid-row-start: content-end;
+  grid-row-end: main-end;
+  grid-column-start: sidebar-start;
+  grid-column-end: main-end;
+}
+
+.Landing__EndBanner {
+  display: flex;
+  color: white;
+  margin-top: 6rem;
+  background: rgb(85, 0, 0);
+  grid-row-start: content-end;
+  grid-row-end: main-end;
+  grid-column-start: main-start;
+  grid-column-end: sidebar-start;
+}
+
+.Landing__Agency-text {
+  padding: 0.5rem 0;
+}
+
+.Landing__Agency-text ul {
+  padding: 0;
+  list-style: none;
 }
