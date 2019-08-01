@@ -1,30 +1,59 @@
-.Romans__Landing {
+.Barbarians__Landing {
   display: grid;
   background: #f5f1ee;
-  height: 140vh;
+  height: 180vh;
   grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end] 1fr [main-end];
-  grid-template-rows: [main-start] 0.15fr [title-start] 0.25fr [title-end] 0fr [splash-start] 2fr [splash-end] 0fr [subtitle-start] 0.25fr [subtitle-end] 0fr [content-start] 3fr [content-end] 0.25fr [main-end];
+  grid-template-rows: [main-start] 0.15fr [warning-start] 2fr [warning-end] 0.25fr [title-start] 0.25fr [title-end] 0fr [splash-start] 2fr [splash-end] 0fr [subtitle-start] 0.5fr [subtitle-end] 0fr [content-start] 3fr [content-end] 0.25fr [main-end];
+  font-family: "Martel", serif;
 }
 
-.title-text {
+.Barbarians__Landing__Warning {
+  grid-column-start: content-start;
+  grid-column-end: content-end;
+  grid-row-start: warning-start;
+  grid-row-end: warning-end;
+  background: #14281d;
+  color: #f5f1ee;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.Barbarians__Landing__Warning--heading {
+  background: #0e1d15;
+  margin: auto 0;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.Barbarians__Landing__Warning--text {
+  padding: 0.5rem 2rem 2rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 2rem;
+  width: 80rem;
+}
+
+.Barbarians__Landing--title {
+  grid-column-start: content-start;
+  grid-column-end: content-end;
+  grid-row-start: title-start;
+  grid-row-end: title-end;
+  display: flex;
+  padding: 0.5rem 0 0 0;
+}
+
+/* .title-text {
   margin: auto 0;
   font-size: 1.5rem;
   font-weight: 600;
   color: rgba(85, 0, 0, 1);
   font-family: "Martel", serif;
-}
+} */
 
-.Romans__Landing--title {
-  grid-row-start: title-start;
-  grid-row-end: title-end;
-  grid-column-start: content-start;
-  grid-column-end: content-end;
-  display: flex;
-  margin: auto 0;
-}
-
-.Romans__Landing__Splash:before {
-  background-image: url("../images/for_romans.jpg");
+.Barbarians__Landing__Splash:before {
+  background-image: url("../images/for_barbarians.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +68,7 @@
   opacity: 0.4;
 }
 
-.Romans__Landing__Splash {
+.Barbarians__Landing__Splash {
   grid-row-start: splash-start;
   grid-row-end: splash-end;
   grid-column-start: main-start;
@@ -51,15 +80,15 @@
   z-index: 2;
   background: linear-gradient(
     90deg,
-    rgba(45, 0, 0, 1) 0%,
-    rgba(85, 0, 0, 1) 30%,
-    rgba(85, 0, 0, 1) 70%,
-    rgba(45, 0, 0, 1) 100%
+    rgba(0, 29, 21, 1) 0%,
+    rgba(20, 40, 29, 1) 30%,
+    rgba(20, 40, 29, 1) 70%,
+    rgba(0, 29, 21, 1) 100%
   );
   color: white;
 }
 
-.Romans__Landing__Splash-list {
+.Barbarians__Landing__Splash-list {
   margin: auto 0 auto 12rem;
   text-shadow: black 0px 0px 10px;
   font-weight: 300;
@@ -68,24 +97,24 @@
   display: flex;
 }
 
-.Romans__Landing__Splash-list ul {
+.Barbarians__Landing__Splash-list ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   line-height: 3rem;
 }
 
-.Romans__Landing__Splash-list ul li {
+.Barbarians__Landing__Splash-list ul li {
   padding: 0 0 0 1rem;
 }
 
-.Romans__Landing__Splash-list ul li:hover {
+.Barbarians__Landing__Splash-list ul li:hover {
   border-left: 3px solid white;
-  background: rgba(85, 0, 0, 1);
+  background: rgba(20, 40, 29, 1);
   transition: 0.2s;
 }
 
-.Romans__Landing__Splash-infobox {
+.Barbarians__Landing__Splash-infobox {
   text-shadow: black 0px 0px 10px;
   border: 1px solid white;
   width: 20rem;
@@ -96,17 +125,17 @@
   align-content: space-around;
 }
 
-.Romans__Landing__Splash-infobox p:first-child {
+.Barbarians__Landing__Splash-infobox p:first-child {
   padding: 1rem 0.5rem;
   height: 100%;
   font-size: 1.1rem;
 }
-.Romans__Landing__Splash-infobox p:nth-child(2) {
+.Barbarians__Landing__Splash-infobox p:nth-child(2) {
   padding: 0rem 0.5rem;
   height: 100%;
 }
 
-.Romans__Landing--subtitle {
+.Barbarians__Landing--subtitle {
   grid-row-start: subtitle-start;
   grid-row-end: subtitle-end;
   grid-column-start: content-start;
@@ -115,7 +144,7 @@
   padding: 0.5rem 0 0 0;
 }
 
-.Romans__Landing--cards-container {
+.Barbarians__Landing--cards-container {
   grid-row-start: content-start;
   grid-row-end: content-end;
   grid-column-start: content-start;

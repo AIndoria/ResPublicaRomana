@@ -1,0 +1,32 @@
+.RomansCard {
+  height: 9rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Martel", serif;
+  padding: 0.0625rem 0 0 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.RomansCard:hover {
+  border: 1px solid rgb(85, 0, 0);
+  border-left: 4px solid rgb(85, 0, 0);
+  padding: 0 0 0 0.75rem;
+}
+
+.RomansCard p:first-child {
+  padding: 0.5rem;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  margin: auto;
+  color: rgb(85, 0, 0);
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+.RomansCard p:nth-child(2) {
+  height: 100%;
+  margin: auto;
+  padding: 0 0.5rem;
+  line-height: 1.25rem;
+}

@@ -75,12 +75,12 @@
   bottom: auto;
   padding: 1rem;
   font-size: 1.5rem;
-  text-shadow: 2px 1px 2px black;
+  text-shadow: 2px 1px 10px black;
   font-family: "Josefin Sans", sans-serif;
 }
 .carousel-caption h3 {
   font-size: 2.5rem;
-  text-shadow: 2px 1px 2px black;
+  text-shadow: 2px 1px 10px black;
 }
 
 .Landing__News-breaking {

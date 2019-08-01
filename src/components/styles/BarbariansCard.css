@@ -1,0 +1,32 @@
+.BarbariansCard {
+  height: 9rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Martel", serif;
+  padding: 0.0625rem 0 0 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.BarbariansCard:hover {
+  border: 1px solid #14281d;
+  border-left: 4px solid #14281d;
+  padding: 0 0 0 0.75rem;
+}
+
+.BarbariansCard p:first-child {
+  padding: 0.5rem;
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  margin: auto;
+  color: #14281d;
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+.BarbariansCard p:nth-child(2) {
+  height: 100%;
+  margin: auto;
+  padding: 0 0.5rem;
+  line-height: 1.25rem;
+}
