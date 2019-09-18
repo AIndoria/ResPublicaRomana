@@ -44,7 +44,14 @@ class Header extends Component {
                   BARBARIANS
                 </Link>
               </li>
-              <li>OFFICES</li>
+              <li>
+                <Link
+                  to="/offices"
+                  style={{ textDecoration: "none", color: "black" }}
+                >
+                  OFFICES
+                </Link>
+              </li>
               <li>PROVINCES</li>
               <li>EVENTS</li>
               <li>ABOUT</li>

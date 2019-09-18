@@ -1,0 +1,55 @@
+.Offices__Landing {
+  display: grid;
+  height: 85vh;
+  background: #f5f1ee;
+  grid-template-columns: [main-start] 1fr [sidebar-start] 2fr [sidebar-end] 0.5fr [content-start] 5fr [content-end] 1fr [main-end];
+  grid-template-rows: [main-start] 1fr [title-start] 1.5fr [title-end] 0.5fr [content-start] 5fr [content-end] 1fr [main-end];
+}
+
+.Offices__Title {
+  background: grey;
+  display: flex;
+  grid-column-start: sidebar-start;
+  grid-column-end: content-end;
+  grid-row-start: title-start;
+  grid-row-end: title-end;
+}
+
+.Offices__Sidebar {
+  background: grey;
+  display: flex;
+  grid-column-start: sidebar-start;
+  grid-column-end: sidebar-end;
+  grid-row-start: content-start;
+  grid-row-end: content-end;
+}
+
+.Offices__Landing__Content {
+  background: grey;
+  display: flex;
+  grid-column-start: content-start;
+  grid-column-end: content-end;
+  grid-row-start: content-start;
+  grid-row-end: content-end;
+}
+
+.Offices__Sidebar-list {
+  font-weight: 300;
+  font-size: 1.25rem;
+  z-index: 2;
+  display: flex;
+  padding: 1rem;
+}
+
+.Offices__Sidebar-list ul {
+  list-style: none;
+}
+
+.Offices__Sidebar-list ul li:hover {
+  border-left: 4px solid rgb(88, 0, 0);
+  padding: 0rem 0rem 0rem 0.75rem;
+}
+
+.Offices__Sidebar-list ul li {
+  padding: 0 0 0 1rem;
+}
