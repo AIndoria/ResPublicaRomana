@@ -112,6 +112,7 @@
   border-left: 3px solid white;
   background: rgba(20, 40, 29, 1);
   transition: 0.2s;
+  padding: 0 0 0 0.8125rem;
 }
 
 .Barbarians__Landing__Splash-infobox {
