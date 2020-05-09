@@ -20,7 +20,7 @@ class Landing extends Component {
                 <h3>Join the Roman Legions</h3>
                 <p>
                   Yesterday for Today, Today for Tomorrow. Enlist at Your
-                  Nearest Castrvm
+                  Nearest Castrum
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -33,7 +33,7 @@ class Landing extends Component {
 
               <Carousel.Caption>
                 <h3>Visit The Capital</h3>
-                <p>All Roads Do Indeed Lead To Capvt Mvndi</p>
+                <p>All Roads Lead To the Capital of the World</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

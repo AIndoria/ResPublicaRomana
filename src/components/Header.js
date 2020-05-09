@@ -52,7 +52,14 @@ class Header extends Component {
                   OFFICES
                 </Link>
               </li>
-              <li>PROVINCES</li>
+              <li>
+                <Link
+                  to="/provinces"
+                  style={{ textDecoration: "none", color: "black" }}
+                >
+                  PROVINCES
+                </Link>
+              </li>
               <li>EVENTS</li>
               <li>ABOUT</li>
             </ul>
