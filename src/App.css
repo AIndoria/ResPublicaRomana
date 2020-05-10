@@ -13,6 +13,7 @@ body {
 .Header {
   grid-area: Header;
 }
+
 .Landing {
   grid-area: Landing;
 }
