@@ -32,7 +32,7 @@ class Offices extends Component {
                   officeSubHeading="Last Held By: SYLLA"
                   officePicture={Dictator_Sulla}
                   officeDescription="A consul or (in emergency situations) praetor can appoint a dictator; this proposal can not be vetoed. Rome's first dictator was Aulus Postumius Albinus, who was appointed in the first decade of the fifth century BCE, when the Latin allies revolted. "
-                  officeDescriptionSub="A dictatorship lasts 6 months and has to be renewed upon the approval of the Senate. A dictator(Master of the infantry: MAGISTER POPVLI) often appoints a Master of the horse, MAGISTER EQVITVM."
+                  officeDescriptionSub="A dictatorship lasts 6 months and has to be renewed upon the approval of the Senate. A dictator(Master of the infantry: Magister Populi) often appoints a Master of the horse, Magister Equitum."
                 ></Offices_Card>
               </Route>
               <Route path="/offices/consul">
