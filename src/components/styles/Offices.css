@@ -7,8 +7,14 @@
 }
 
 .Offices__Title {
-  background: grey;
   display: flex;
+  justify-content: center;
+  color: rgb(88, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 100%;
+  flex-direction: column;
+  font-family: "Martel", serif;
   grid-column-start: sidebar-start;
   grid-column-end: content-end;
   grid-row-start: title-start;
@@ -25,7 +31,6 @@
 }
 
 .Offices__Landing__Content {
-  background: grey;
   display: flex;
   grid-column-start: content-start;
   grid-column-end: content-end;
