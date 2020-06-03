@@ -1,3 +1,7 @@
+---
+permalink: /public/index.html
+---
+
 ## Official Website of the Government of Rome
 
 **ToDo:**
