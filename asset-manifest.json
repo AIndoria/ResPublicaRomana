@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/ResPublicaRomana/static/css/main.8de6af9c.chunk.css",
+    "main.js": "/ResPublicaRomana/static/js/main.433dd02c.chunk.js",
+    "main.js.map": "/ResPublicaRomana/static/js/main.433dd02c.chunk.js.map",
+    "runtime-main.js": "/ResPublicaRomana/static/js/runtime-main.b1460764.js",
+    "runtime-main.js.map": "/ResPublicaRomana/static/js/runtime-main.b1460764.js.map",
+    "static/js/2.792e9923.chunk.js": "/ResPublicaRomana/static/js/2.792e9923.chunk.js",
+    "static/js/2.792e9923.chunk.js.map": "/ResPublicaRomana/static/js/2.792e9923.chunk.js.map",
+    "index.html": "/ResPublicaRomana/index.html",
+    "precache-manifest.d9e049d40df5c45476a052a458c8106a.js": "/ResPublicaRomana/precache-manifest.d9e049d40df5c45476a052a458c8106a.js",
+    "service-worker.js": "/ResPublicaRomana/service-worker.js",
+    "static/css/main.8de6af9c.chunk.css.map": "/ResPublicaRomana/static/css/main.8de6af9c.chunk.css.map",
+    "static/js/2.792e9923.chunk.js.LICENSE.txt": "/ResPublicaRomana/static/js/2.792e9923.chunk.js.LICENSE.txt",
+    "static/media/Consul_Cicero.jpg": "/ResPublicaRomana/static/media/Consul_Cicero.38d43efd.jpg",
+    "static/media/Dictator_Sulla.jpg": "/ResPublicaRomana/static/media/Dictator_Sulla.8c5a0a46.jpg",
+    "static/media/SPQR.svg": "/ResPublicaRomana/static/media/SPQR.a5ed5917.svg",
+    "static/media/art.jpg": "/ResPublicaRomana/static/media/art.dd2ba92f.jpg",
+    "static/media/capitalina.jpg": "/ResPublicaRomana/static/media/capitalina.3188aa99.jpg",
+    "static/media/cato.jpg": "/ResPublicaRomana/static/media/cato.56bd35c8.jpg",
+    "static/media/Barbarians.css": "/ResPublicaRomana/static/media/for_barbarians.f5f03999.jpg",
+    "static/media/Romans.css": "/ResPublicaRomana/static/media/for_romans.ffbcab6e.jpg",
+    "static/media/militari.jpg": "/ResPublicaRomana/static/media/militari.f5be3bca.jpg",
+    "static/media/senate.jpg": "/ResPublicaRomana/static/media/senate.87fdac88.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1460764.js",
+    "static/js/2.792e9923.chunk.js",
+    "static/css/main.8de6af9c.chunk.css",
+    "static/js/main.433dd02c.chunk.js"
+  ]
+}
