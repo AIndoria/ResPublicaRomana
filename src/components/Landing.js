@@ -7,8 +7,27 @@ import Cato from "./images/cato.jpg";
 import Art from "./images/art.jpg";
 import Carousel from "react-bootstrap/Carousel";
 import Card from "react-bootstrap/Card";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 
 class Landing extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      show: true,
+    };
+
+    this.handleClose = this.handleClose.bind(this);
+    this.handleShow = this.handleShow.bind(this);
+  }
+
+  handleClose() {
+    this.setState({ show: false });
+  }
+
+  handleShow() {
+    this.setState({ show: true });
+  }
   render() {
     return (
       <div className="Landing">
@@ -119,6 +138,31 @@ class Landing extends Component {
               <li>Privacy Policy</li>
             </ul>
           </div>
+        </div>
+        <div>
+          <p
+            variant="primary"
+            onClick={this.handleShow}
+            style={{ height: "1px", width: "1px" }}
+          ></p>
+
+          <Modal show={this.state.show} onHide={this.handleClose}>
+            <Modal.Header closeButton>
+              <Modal.Title>Work in Progress</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              This website is very broken at the moment since this is in
+              development. As of now, if you want to proceed, this is best
+              viewed in a browser of resolution of at least 1920x1080. 1600x900
+              will work, but expect some content overlapping, especially on the
+              Home page. You have been warned.
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={this.handleClose}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
         </div>
       </div>
     );
